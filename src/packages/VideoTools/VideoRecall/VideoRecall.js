@@ -9,9 +9,9 @@ function initPkg_VideoTools_VideoRecall_Func() {
             return;
         }
         if (e.keyCode == 37) {
-            liveVideoNode.currentTime += -3;
+            liveVideoNode.currentTime += -1;
         } else if (e.keyCode == 39) {
-            liveVideoNode.currentTime += 3;
+            liveVideoNode.currentTime += 1;
         }
     });
 }
