@@ -9620,7 +9620,7 @@ async function getAct() {
 }
 
 async function initPkg_Sign_ActqzsUserTask() {
-  const rids = ["5189167", "290935", "6979222", "5132174", "63136"];
+  const rids = ["6442973", "88080", "2448877", "9616398", "6194144"];
   let activityId = await getActivityId(dateFormat("yyyyMM", new Date()));
   if (!activityId) {
     const currentDate = new Date();
@@ -9706,19 +9706,19 @@ function getCardArenaId(dateStr) {
 
 function signinCardArena(activityId, rid) {
   return new Promise((resolve, reject) => {
-    fetch("https://www.douyu.com/japi/revenuenc/web/cardArena/userTask/signIn", {
-        method: 'POST',
-        mode: 'no-cors',
-        credentials: 'include',
-        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-        body: `ctn=${getCCN()}&activity_id=${activityId}&rid=${rid}`
+    fetch("https://www.douyu.com/japi/revenuenc/web/actqzs/userTask/signIn", {
+      method: 'POST',
+      mode: 'no-cors',
+      credentials: 'include',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `ctn=${getCCN()}&activity_id=${activityId}&rid=${rid}`
     }).then(res => {
-        return res.json();
+      return res.json();
     }).then(ret => {
-        resolve(ret);
+      resolve(ret);
     }).catch(err => {
-        console.log("请求失败!", err);
-        reject(err);
+      console.log("请求失败!", err);
+      reject(err);
     })
   })
 }
@@ -9726,18 +9726,18 @@ function signinCardArena(activityId, rid) {
 function signinAct(activityId, rid) {
   return new Promise((resolve, reject) => {
     fetch("https://www.douyu.com/japi/revenuenc/web/actqzs/userTask/signIn", {
-        method: 'POST',
-        mode: 'no-cors',
-        credentials: 'include',
-        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-        body: `ctn=${getCCN()}&activity_id=${activityId}&rid=${rid}`
+      method: 'POST',
+      mode: 'no-cors',
+      credentials: 'include',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `ctn=${getCCN()}&activity_id=${activityId}&rid=${rid}`
     }).then(res => {
-        return res.json();
+      return res.json();
     }).then(ret => {
-        resolve(ret);
+      resolve(ret);
     }).catch(err => {
-        console.log("请求失败!", err);
-        reject(err);
+      console.log("请求失败!", err);
+      reject(err);
     })
   })
 }
@@ -11405,9 +11405,9 @@ function initPkg_VideoTools_VideoRecall_Func() {
             return;
         }
         if (e.keyCode == 37) {
-            liveVideoNode.currentTime += -3;
+            liveVideoNode.currentTime += -1;
         } else if (e.keyCode == 39) {
-            liveVideoNode.currentTime += 3;
+            liveVideoNode.currentTime += 1;
         }
     });
 }
