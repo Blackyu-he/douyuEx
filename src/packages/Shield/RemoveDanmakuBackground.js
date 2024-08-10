@@ -6,7 +6,7 @@ function initPkg_Shield_RemoveDanmakuBackground() {
     `
       <div class="ShieldTool-listItem ${isRemoveDanmakuBackground ? "is-checked" : "is-noChecked"}" id="ex-removeDanmakuBackground">
           <span class="ShieldTool-checkIcon"></span>
-          <h5 class="ShieldTool-checkText">屏蔽弹幕背景和图片</h5>
+          <h5 class="ShieldTool-checkText">屏蔽弹幕背景</h5>
       </div>`
   );
   if (isRemoveDanmakuBackground) removeDanmakuBackground();
@@ -38,7 +38,7 @@ function removeDanmakuBackground() {
     "Ex_Style_RemoveDanmakuBackground",
     `
       .danmuItem-31f924 {
-        background: none;
+        background: none !important;
       }
       .danmuItem-31f924 div{
         background: none;
@@ -52,13 +52,14 @@ function removeDanmakuBackground() {
       .super-text-0281ca {
         background: none !important;
       }
-      .danmuItem-f8e204 img {
-        display: none;
+      .danmuItem-31f924 .noble-bf13ad {
+        background: none !important;
       }
-      .super-text-188279 img {
-        display: none;
+      .customBarrage {
+        background: none !important;
+        text-shadow: none !important;
       }
-      .super-text-188279 {
+      .customBarrage > div {
         background: none !important;
       }
   `
