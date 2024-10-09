@@ -1,6 +1,7 @@
 async function initPkg_Sign_ActqzsUserTask() {
-  const rids = ["6442973", "88080", "2448877", "9616398", "6194144"];
-  let activityId = await getActivityId(dateFormat("yyyyMM", new Date()));
+  const rids = ["6442973", "1457640", "2448877", "9616398", "6194144"];
+  // let activityId = await getActivityId(dateFormat("yyyyMM", new Date()));
+  let activityId = 2026;
   if (!activityId) {
     const currentDate = new Date();
     const nextMonth = currentDate.getMonth() + 1;
