@@ -3,7 +3,7 @@
 // @name         DouyuEx-斗鱼直播间增强插件
 // @namespace    https://github.com/qianjiachun
 // @icon         data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTA4cHgiIGhlaWdodD0iMTA4cHgiIHZpZXdCb3g9IjAgMCAxMDggMTA4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPHRpdGxlPueyvueBteeQgzwvdGl0bGU+CiAgICA8ZyBpZD0i6aG16Z2iLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSLnsr7ngbXnkIMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuODMwNzY5LCAwLjgzMDc2OSkiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik01My4xNjkyMzA3LDEwNi4zMzg0NjEgQzIzLjgyNzY5MjIsMTA2LjMzODQ2MSAwLDgyLjUxMDc2OTIgMCw1My4xNjkyMzA3IEMwLDUxLjAwMzA3NjkgMS43NzIzMDc3NSw0OS4yMzA3NjkyIDMuOTM4NDYxNSw0OS4yMzA3NjkyIEwzMy40NzY5MjMsNDkuMjMwNzY5MiBDMzUuNjQzMDc2OSw0OS4yMzA3NjkyIDM3LjQxNTM4NDUsNTEuMDAzMDc3IDM3LjQxNTM4NDYsNTMuMTY5MjMwNyBDMzcuNDE1Mzg0Niw2MS44MzM4NDYxIDQ0LjUwNDYxNTQsNjguOTIzMDc2OSA1My4xNjkyMzA3LDY4LjkyMzA3NjkgQzYxLjgzMzg0NjEsNjguOTIzMDc2OSA2OC45MjMwNzY5LDYxLjgzMzg0NjEgNjguOTIzMDc2OSw1My4xNjkyMzA3IEM2OC45MjMwNzY5LDUxLjAwMzA3NjkgNzAuNjk1Mzg0Niw0OS4yMzA3NjkyIDcyLjg2MTUzODUsNDkuMjMwNzY5MiBMMTAyLjQsNDkuMjMwNzY5MiBDMTA0LjU2NjE1NCw0OS4yMzA3NjkyIDEwNi4zMzg0NjEsNTEuMDAzMDc3IDEwNi4zMzg0NjEsNTMuMTY5MjMwNyBDMTA2LjMzODQ2MSw4Mi41MTA3NjkyIDgyLjUxMDc2OTIsMTA2LjMzODQ2MSA1My4xNjkyMzA3LDEwNi4zMzg0NjEgWiIgaWQ9Iui3r+W+hCIgZmlsbD0iIzMzMzYzQSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNOC4wNzM4NDYxMiw1Ny4xMDc2OTIyIEMxMC4wNDMwNzY5LDgwLjI0NjE1MzcgMjkuNTM4NDYxNSw5OC40NjE1Mzg1IDUzLjE2OTIzMDcsOTguNDYxNTM4NSBDNzYuOCw5OC40NjE1Mzg1IDk2LjI5NTM4NDYsODAuMjQ2MTUzOSA5OC4yNjQ2MTU0LDU3LjEwNzY5MjIgTDc2LjUwNDYxNTQsNTcuMTA3NjkyMiBDNzQuNjMzODQ2MSw2OC4yMzM4NDYxIDY0Ljg4NjE1MzksNzYuOCA1My4xNjkyMzA3LDc2LjggQzQxLjQ1MjMwNzYsNzYuOCAzMS43MDQ2MTU0LDY4LjIzMzg0NjEgMjkuODMzODQ2MSw1Ny4xMDc2OTIyIEw4LjA3Mzg0NjEyLDU3LjEwNzY5MjIgWiIgaWQ9Iui3r+W+hCIgZmlsbD0iI0ZGRkZGRiI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNNTMuMTY5MjMwOCwzLjkzODQ2MTUgQzI1Ljk5Mzg0NjEsMy45Mzg0NjE1IDMuOTM4NDYxNSwyNS45OTM4NDYxIDMuOTM4NDYxNSw1My4xNjkyMzA3IEwzMy40NzY5MjMsNTMuMTY5MjMwNyBDMzMuNDc2OTIzLDQyLjMzODQ2MTUgNDIuMzM4NDYxNSwzMy40NzY5MjMgNTMuMTY5MjMwOCwzMy40NzY5MjMgQzY0LDMzLjQ3NjkyMyA3Mi44NjE1Mzg1LDQyLjMzODQ2MTUgNzIuODYxNTM4NSw1My4xNjkyMzA3IEwxMDIuNCw1My4xNjkyMzA3IEMxMDIuNCwyNS45OTM4NDYxIDgwLjM0NDYxNTQsMy45Mzg0NjE1IDUzLjE2OTIzMDgsMy45Mzg0NjE1IFoiIGlkPSLot6/lvoQiIGZpbGw9IiNENjA5MDkiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTEwMi40LDU3LjEwNzY5MjIgTDcyLjg2MTUzODUsNTcuMTA3NjkyMiBDNzAuNjk1Mzg0Niw1Ny4xMDc2OTIyIDY4LjkyMzA3Nyw1NS4zMzUzODQ1IDY4LjkyMzA3NjksNTMuMTY5MjMwNyBDNjguOTIzMDc2OSw0NC41MDQ2MTU0IDYxLjgzMzg0NjEsMzcuNDE1Mzg0NiA1My4xNjkyMzA3LDM3LjQxNTM4NDYgQzQ0LjUwNDYxNTQsMzcuNDE1Mzg0NiAzNy40MTUzODQ2LDQ0LjUwNDYxNTQgMzcuNDE1Mzg0Niw1My4xNjkyMzA3IEMzNy40MTUzODQ2LDU1LjMzNTM4NDYgMzUuNjQzMDc2OSw1Ny4xMDc2OTIyIDMzLjQ3NjkyMyw1Ny4xMDc2OTIyIEwzLjkzODQ2MTUsNTcuMTA3NjkyMiBDMS43NzIzMDc2Miw1Ny4xMDc2OTIyIDAsNTUuMzM1Mzg0NSAwLDUzLjE2OTIzMDcgQzAsMjMuODI3NjkyMiAyMy44Mjc2OTIzLDAgNTMuMTY5MjMwNywwIEM4Mi41MTA3NjkyLDAgMTA2LjMzODQ2MSwyMy44Mjc2OTIyIDEwNi4zMzg0NjEsNTMuMTY5MjMwNyBDMTA2LjMzODQ2MSw1NS4zMzUzODQ2IDEwNC41NjYxNTQsNTcuMTA3NjkyMiAxMDIuNCw1Ny4xMDc2OTIyIFoiIGlkPSLot6/lvoQiIGZpbGw9IiMzMzM2M0EiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTc2LjUwNDYxNTQsNDkuMjMwNzY5MyBMOTguMzYzMDc2OSw0OS4yMzA3NjkzIEM5Ni4yOTUzODQ2LDI2LjA5MjMwNzYgNzYuOCw3Ljg3NjkyMyA1My4xNjkyMzA3LDcuODc2OTIzIEMyOS41Mzg0NjE1LDcuODc2OTIzIDEwLjA0MzA3NjksMjYuMDkyMzA3NiA4LjA3Mzg0NjEyLDQ5LjIzMDc2OTMgTDI5LjkzMjMwNzYsNDkuMjMwNzY5MyBDMzEuNzA0NjE1NCwzOC4xMDQ2MTU0IDQxLjQ1MjMwNzYsMjkuNTM4NDYxNSA1My4xNjkyMzA3LDI5LjUzODQ2MTUgQzY0Ljg4NjE1MzksMjkuNTM4NDYxNSA3NC42MzM4NDYxLDM4LjEwNDYxNTQgNzYuNTA0NjE1NCw0OS4yMzA3NjkzIEw3Ni41MDQ2MTU0LDQ5LjIzMDc2OTMgWiIgaWQ9Iui3r+W+hCIgZmlsbD0iI0Q2MDkwOSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNNTMuMTY5MjMwNyw3Ni44IEM0MC4xNzIzMDc2LDc2LjggMjkuNTM4NDYxNSw2Ni4xNjYxNTM5IDI5LjUzODQ2MTUsNTMuMTY5MjMwNyBDMjkuNTM4NDYxNSw0MC4xNzIzMDc2IDQwLjE3MjMwNzYsMjkuNTM4NDYxNSA1My4xNjkyMzA3LDI5LjUzODQ2MTUgQzY2LjE2NjE1MzksMjkuNTM4NDYxNSA3Ni44LDQwLjE3MjMwNzYgNzYuOCw1My4xNjkyMzA3IEM3Ni44LDY2LjE2NjE1MzkgNjYuMTY2MTUzOSw3Ni44IDUzLjE2OTIzMDcsNzYuOCBaIiBpZD0i6Lev5b6EIiBmaWxsPSIjMzMzNjNBIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik01My4xNjkyMzA3LDM3LjQxNTM4NDYgQzQ0LjUwNDYxNTQsMzcuNDE1Mzg0NiAzNy40MTUzODQ2LDQ0LjUwNDYxNTQgMzcuNDE1Mzg0Niw1My4xNjkyMzA3IEMzNy40MTUzODQ2LDYxLjgzMzg0NjEgNDQuNTA0NjE1NCw2OC45MjMwNzY5IDUzLjE2OTIzMDcsNjguOTIzMDc2OSBDNjEuODMzODQ2MSw2OC45MjMwNzY5IDY4LjkyMzA3NjksNjEuODMzODQ2MSA2OC45MjMwNzY5LDUzLjE2OTIzMDcgQzY4LjkyMzA3NjksNDQuNTA0NjE1NCA2MS44MzM4NDYxLDM3LjQxNTM4NDYgNTMuMTY5MjMwNywzNy40MTUzODQ2IEw1My4xNjkyMzA3LDM3LjQxNTM4NDYgWiIgaWQ9Iui3r+W+hCIgZmlsbD0iI0ZGRkZGRiI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNNDMuMzIzMDc2OSw1My4xNjkyMzA3IEM0My4zMjMwNzY5LDU4LjYwNzExMTQgNDcuNzMxMzUwMSw2My4wMTUzODQ2IDUzLjE2OTIzMDcsNjMuMDE1Mzg0NiBDNTguNjA3MTExNCw2My4wMTUzODQ2IDYzLjAxNTM4NDYsNTguNjA3MTExNCA2My4wMTUzODQ2LDUzLjE2OTIzMDcgQzYzLjAxNTM4NDYsNDcuNzMxMzUwMSA1OC42MDcxMTE0LDQzLjMyMzA3NjkgNTMuMTY5MjMwNyw0My4zMjMwNzY5IEM0Ny43MzEzNTAxLDQzLjMyMzA3NjkgNDMuMzIzMDc2OSw0Ny43MzEzNTAxIDQzLjMyMzA3NjksNTMuMTY5MjMwNyBaIiBpZD0i6Lev5b6EIiBmaWxsPSIjMzMzNjNBIj48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=
-// @version      2024.10.15.01
+// @version      2024.10.17.01
 // @description  弹幕自动变色防检测循环发送 一键续牌 查看真实人数/查看主播数据 已播时长 一键签到(直播间/车队/鱼吧/客户端) 一键领取鱼粮(宝箱/气泡/任务) 一键寻宝 送出指定数量的礼物 一键清空背包 屏蔽广告 调节弹幕大小 自动更新 同屏画中画/多直播间小窗观看/可在斗鱼看多个平台直播(虎牙/b站) 获取真实直播流地址 自动抢礼物红包 背包信息扩展 简洁模式 夜间模式 开播提醒 幻神模式 关键词回复 关键词禁言 自动谢礼物 自动抢宝箱 弹幕右键信息扩展 防止下播自动跳转 影院模式 直播时间流控制 弹幕投票 直播滤镜 直播音频流 账号多开/切换 显示粉丝牌获取日期 月消费数据显示 弹幕时速 相机截图录制gif 全景播放器 斗鱼视频下载/弹幕ass下载 直播画面局部缩放 全站抽奖信息 直播音效增强 阻止P2P上传 显示贡献榜贡献值 恢复弹幕显示 斗鱼视频弹幕高能进度条 检测弹幕是否发送成功 查看主播配置信息 自动网页全屏 自动最高画质 弹幕无限收藏 收藏弹幕搜索 支持弹幕带图片 屏蔽弹幕背景 弹幕+1
 // @author       小淳
 // @match			*://*.douyu.com/0*
@@ -3252,7 +3252,7 @@ function ExpandTool_Gold_insertDom() {
     let html = "";
     html += '<label><input style="margin-top:5px;" id="extool__gold_start" type="checkbox">幻神模式</label>';
     html += '<label><input style="margin-top:5px;" id="extool__goldGift_start" type="checkbox">荧光棒变超火</label>';
-    
+
     let a = document.createElement("div");
     a.className = "extool__gold";
     a.innerHTML = html;
@@ -3268,60 +3268,60 @@ function ExpandTool_Gold_insertGiftDom() {
 }
 
 function ExpandTool_Gold_insertFunc() {
-    document.getElementById("extool__gold_start").addEventListener("click", async function() {
+    document.getElementById("extool__gold_start").addEventListener("click", async function () {
         let ischecked = document.getElementById("extool__gold_start").checked;
         if (ischecked == true) {
             // 开启幻神模式  danmu-6e95c1
             goldBarrageHook = new DomHook(".danmu-e7f029", true, goldBarrage);
             goldBarrageListHook = new DomHook(".Barrage-list", true, goldBarrageList);
             goldFansMedal();
-        } else{
+        } else {
             // 停止幻神模式
             goldBarrageHook.closeHook();
             goldBarrageListHook.closeHook();
-            
+
         }
         saveData_Gold();
-	});
-    document.getElementById("extool__goldGift_start").addEventListener("click", async function() {
+    });
+    document.getElementById("extool__goldGift_start").addEventListener("click", async function () {
         user_name = await getUserName();
         let ischecked = document.getElementById("extool__goldGift_start").checked;
         if (ischecked == true) {
             goldGiftHook = new DomHook(".BarrageBanner", true, fansToSuperRocket);
-        } else{
+        } else {
             goldGiftHook.closeHook();
         }
         saveData_GoldGift();
-	});
+    });
 }
 
 function saveData_Gold() {
-	let isGold = document.getElementById("extool__gold_start").checked;
-	let data = {
-		isGold: isGold
-	}
-	localStorage.setItem("ExSave_Gold", JSON.stringify(data)); // 存储弹幕列表
+    let isGold = document.getElementById("extool__gold_start").checked;
+    let data = {
+        isGold: isGold
+    }
+    localStorage.setItem("ExSave_Gold", JSON.stringify(data)); // 存储弹幕列表
 }
 
 function saveData_GoldGift() {
-	let isGoldGift = document.getElementById("extool__goldGift_start").checked;
-	let data = {
-		isGoldGift: isGoldGift
-	}
-	localStorage.setItem("ExSave_GoldGift", JSON.stringify(data)); // 存储弹幕列表
+    let isGoldGift = document.getElementById("extool__goldGift_start").checked;
+    let data = {
+        isGoldGift: isGoldGift
+    }
+    localStorage.setItem("ExSave_GoldGift", JSON.stringify(data)); // 存储弹幕列表
 }
 
 function ExpandTool_Gold_Set() {
-	// 设置初始化
+    // 设置初始化
     let ret = localStorage.getItem("ExSave_Gold");
-	if (ret != null) {
+    if (ret != null) {
         let retJson = JSON.parse(ret);
         if (retJson.isGold == true) {
             document.getElementById("extool__gold_start").click();
         }
     }
     ret = localStorage.getItem("ExSave_GoldGift");
-	if (ret != null) {
+    if (ret != null) {
         let retJson = JSON.parse(ret);
         if (retJson.isGoldGift == true) {
             document.getElementById("extool__goldGift_start").click();
@@ -3336,44 +3336,44 @@ function goldBarrageList(m) {
     if (m[0].addedNodes.length == 0) {
         return;
     }
-    
+
     let itemNode = m[0].addedNodes[0];
     let chatArea = itemNode.lastElementChild;
     if (chatArea != null && chatArea.innerHTML.indexOf("is-self") != -1) {
         let barrageListTimeout = setTimeout(() => {
             itemNode.className = "Barrage-listItem js-noblefloating-barrage";
-        chatArea.className = "js-noblefloating-barragecont Barrage-notice--noble";
-        chatArea.setAttribute('style','background-color: #fff3df');
-        let nickNameObj = chatArea.getElementsByClassName("Barrage-nickName")[0];
-        nickNameObj.setAttribute('class','Barrage-nickName is-self js-nick');
+            chatArea.className = "js-noblefloating-barragecont Barrage-notice--noble";
+            chatArea.setAttribute('style', 'background-color: #fff3df');
+            let nickNameObj = chatArea.getElementsByClassName("Barrage-nickName")[0];
+            nickNameObj.setAttribute('class', 'Barrage-nickName is-self js-nick');
 
-        let userLevelObj = chatArea.querySelector(".UserLevel");
-        if( userLevelObj!=null){
-            userLevelObj.className = "UserLevel UserLevel--150";
-            userLevelObj.setAttribute("title", "用户等级：150");
-        }
-        let roomLevelObj = chatArea.querySelector(".RoomLevel");
-        if( roomLevelObj!=null){
-            roomLevelObj.className = "RoomLevel RoomLevel--18";
-            roomLevelObj.setAttribute("title","房间等级：18");
-        }
-        let fansMedal = itemNode.querySelector(".FansMedal");
+            let userLevelObj = chatArea.querySelector(".UserLevel");
+            if (userLevelObj != null) {
+                userLevelObj.className = "UserLevel UserLevel--150";
+                userLevelObj.setAttribute("title", "用户等级：150");
+            }
+            let roomLevelObj = chatArea.querySelector(".RoomLevel");
+            if (roomLevelObj != null) {
+                roomLevelObj.className = "RoomLevel RoomLevel--18";
+                roomLevelObj.setAttribute("title", "房间等级：18");
+            }
+            let fansMedal = itemNode.querySelector(".FansMedal");
 
-        if(fansMedal!=null){
-            fansMedal.style = "display:none;";
-        }
-        let fansMedalName = document.getElementsByClassName("FansMedal-name")[0];//fans medal
+            if (fansMedal != null) {
+                fansMedal.style = "display:none;";
+            }
+            let fansMedalName = document.getElementsByClassName("FansMedal-name")[0];//fans medal
             let fansBackgroundImg = document.getElementsByClassName("DiamondsFansRankList-item DiamondsFansRankList-item--top")[0];
-            if(fansMedalName){
+            if (fansMedalName) {
                 let fansTag = document.createElement("div");
                 let fansSpan = document.createElement("span");
-                fansTag.className="FansMedal level-50 js-fans-dysclick Barrage-icon";
+                fansTag.className = "FansMedal level-50 js-fans-dysclick Barrage-icon";
                 // fansTag.setAttribute("data-rid",roomId);//id is same to roomId
                 fansSpan.className = "FansMedal-name js-fans-dysclick";
                 // fansSpan.setAttribute("data-rid",roomId);
                 fansSpan.innerHTML = fansMedalName.innerText;
                 fansTag.appendChild(fansSpan);
-                chatArea.insertBefore(fansTag,chatArea.querySelector(".UserLevel"));
+                chatArea.insertBefore(fansTag, chatArea.querySelector(".UserLevel"));
                 // if(fansBackgroundImg && fansBackgroundImg.innerHTML.indexOf("background-image:")==-1){//common fans medal
                 //     let fansTag = document.createElement("div");
                 //     let fansSpan = document.createElement("span");
@@ -3396,40 +3396,40 @@ function goldBarrageList(m) {
                 //     fansTag1.appendChild(fansSpan1);
                 //     chatArea.insertBefore(fansTag1,chatArea.querySelector(".UserLevel"));
                 // }
-            }else{//point to a fans medal when room have none of fans medal
+            } else {//point to a fans medal when room have none of fans medal
                 let fansTag2 = document.createElement("div");
-                fansTag2.className="FansMedal level-50 js-fans-dysclick Barrage-icon";
-                fansTag2.setAttribute("data-rid","5189167");
+                fansTag2.className = "FansMedal level-50 js-fans-dysclick Barrage-icon";
+                fansTag2.setAttribute("data-rid", "6442973");
                 let fansSpan2 = document.createElement("span");
                 fansSpan2.className = "FansMedal-name js-fans-dysclick";
-                fansSpan2.setAttribute("data-rid","5189167");
-                fansSpan2.innerHTML = "歆崽";
+                fansSpan2.setAttribute("data-rid", "6442973");
+                fansSpan2.innerHTML = "托兜兜";
                 fansTag2.appendChild(fansSpan2);
-                chatArea.insertBefore(fansTag2,chatArea.querySelector(".UserLevel"));
+                chatArea.insertBefore(fansTag2, chatArea.querySelector(".UserLevel"));
             }
 
-        let nobleIconObj = itemNode.querySelector(".Barrage-nobleImg");
-        if(nobleIconObj != null){
-            nobleIconObj.src = "//res.douyucdn.cn/resource/2019/08/15/common/4e85776071ffbae2867bb9d116e9a43c.gif";
-            nobleIconObj.title = "幻神"
-        } else {
-            let royalTag = document.createElement("span");
-            let royalImg = document.createElement("img");
-            royalTag.className = "Barrage-icon Barrage-noble";
-            royalImg.className = "Barrage-nobleImg";
-            royalImg.setAttribute("src", "//res.douyucdn.cn/resource/2019/08/15/common/4e85776071ffbae2867bb9d116e9a43c.gif");
-            royalImg.setAttribute("title", "幻神");
-            royalTag.appendChild(royalImg);
-            chatArea.insertBefore(royalTag, chatArea.firstElementChild);
-        }
-        clearTimeout(barrageListTimeout);
+            let nobleIconObj = itemNode.querySelector(".Barrage-nobleImg");
+            if (nobleIconObj != null) {
+                nobleIconObj.src = "//res.douyucdn.cn/resource/2019/08/15/common/4e85776071ffbae2867bb9d116e9a43c.gif";
+                nobleIconObj.title = "幻神"
+            } else {
+                let royalTag = document.createElement("span");
+                let royalImg = document.createElement("img");
+                royalTag.className = "Barrage-icon Barrage-noble";
+                royalImg.className = "Barrage-nobleImg";
+                royalImg.setAttribute("src", "//res.douyucdn.cn/resource/2019/08/15/common/4e85776071ffbae2867bb9d116e9a43c.gif");
+                royalImg.setAttribute("title", "幻神");
+                royalTag.appendChild(royalImg);
+                chatArea.insertBefore(royalTag, chatArea.firstElementChild);
+            }
+            clearTimeout(barrageListTimeout);
         }, 100);
     }
-    
+
 }
 
 function goldFansMedal() {
-    document.getElementsByClassName("FansMedalEnter-enterContent")[0].setAttribute("data-medal-level","50");
+    document.getElementsByClassName("FansMedalEnter-enterContent")[0].setAttribute("data-medal-level", "50");
 }
 
 function goldBarrage(m) {
@@ -3440,43 +3440,43 @@ function goldBarrage(m) {
         return;
     }
     let itemNode = m[0].addedNodes[0];
-    if(itemNode.className.indexOf("noble-f439ef")==-1 && itemNode.innerHTML.indexOf("border: 2px solid rgb(2, 255, 255)")!=-1){//find self and remove redupliction
+    if (itemNode.className.indexOf("noble-f439ef") == -1 && itemNode.innerHTML.indexOf("border: 2px solid rgb(2, 255, 255)") != -1) {//find self and remove redupliction
         itemNode.style.zIndex = "30";
         itemNode.className = "danmuItem-f8e204 noble-f439ef";
         // itemNode.setAttribute("style",characterStyle);
         //noble icon without redupliction remove
         let nobleImgTag = document.createElement("img");
         nobleImgTag.className = "super-noble-icon-54c62c";
-        nobleImgTag.setAttribute("src","https://shark2.douyucdn.cn/front-publish/live_player-master/assets/images/h1_dcd226.png");
-        nobleImgTag.setAttribute("style","margin-left: -57px; margin-top: -4px;");
-        itemNode.insertBefore(nobleImgTag,itemNode.firstElementChild);
+        nobleImgTag.setAttribute("src", "https://shark2.douyucdn.cn/front-publish/live_player-master/assets/images/h1_dcd226.png");
+        nobleImgTag.setAttribute("style", "margin-left: -57px; margin-top: -4px;");
+        itemNode.insertBefore(nobleImgTag, itemNode.firstElementChild);
         //user avatar img
         let userIconTag = document.createElement("img");
         userIconTag.className = "super-user-icon-253711";
         let userIconObj = document.getElementsByClassName("Avatar is-circle")[0];
-        if(userIconObj !=undefined){
+        if (userIconObj != undefined) {
             userIconObj = userIconObj.getElementsByTagName("img")[0].getAttribute("src");
-            userIconTag.setAttribute("src", userIconObj.replace((new RegExp("_middle")),"_small"));
-        }else{
+            userIconTag.setAttribute("src", userIconObj.replace((new RegExp("_middle")), "_small"));
+        } else {
             // console.error("未能获取到用户头像");
         }
-        itemNode.insertBefore(userIconTag,itemNode.firstElementChild);
+        itemNode.insertBefore(userIconTag, itemNode.firstElementChild);
         //remove out tail tag
         let tailTag = itemNode.getElementsByClassName("afterpic-f864c2")[0];
         tailTag.remove();
         //transform barrage effect
         let textContent = itemNode.getElementsByClassName("text-edf4e7")[0];
         textContent.className = "super-text-188279";
-        textContent.setAttribute("style","font: bold 23px SimHei, 'Microsoft JhengHei', Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); background: url('https://shark2.douyucdn.cn/front-publish/live_player-master/assets/images/h2_8e5e64.png'); height: 44px;");
+        textContent.setAttribute("style", "font: bold 23px SimHei, 'Microsoft JhengHei', Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); background: url('https://shark2.douyucdn.cn/front-publish/live_player-master/assets/images/h2_8e5e64.png'); height: 44px;");
         //add tag tail includes fire icon or sign icon
         let afterpicTag = document.createElement("div");
-        afterpicTag.setAttribute("class","afterpic-f864c2");
-        afterpicTag.setAttribute("style","margin-top: 7px; margin-left: -1px;");// afterpicTag.setAttribute("style","margin-top: 7px; margin-left: -43px;");
+        afterpicTag.setAttribute("class", "afterpic-f864c2");
+        afterpicTag.setAttribute("style", "margin-top: 7px; margin-left: -1px;");// afterpicTag.setAttribute("style","margin-top: 7px; margin-left: -43px;");
         textContent.appendChild(afterpicTag);
         //tail icon
         let superTailImg = document.createElement("img");
         superTailImg.className = "super-tail-6a0446";
-        superTailImg.setAttribute("src","https://shark2.douyucdn.cn/front-publish/live_player-master/assets/images/h3_fd2e5b.png");
+        superTailImg.setAttribute("src", "https://shark2.douyucdn.cn/front-publish/live_player-master/assets/images/h3_fd2e5b.png");
         itemNode.appendChild(superTailImg);
         console.log(superTailImg)
     }
@@ -3492,7 +3492,7 @@ function fansToSuperRocket(m) {
     let dom_gift = m[0].addedNodes[0];
     if (dom_gift.getElementsByClassName("Banner4gift-senderName")[0].title == user_name) {
         let giftName = dom_gift.getElementsByClassName("Banner4gift-objectName")[0].title;
-        if (giftName == "粉丝荧光棒") {
+        if (giftName == "粉丝荧光棒" || giftName == "钻粉荧光棒") {
             dom_gift.className = "Banner4gift Banner4gift--size2";
             dom_gift.getElementsByClassName("Banner4gift-bg")[0].src = "https://gfs-op.douyucdn.cn/dygift/2019/03/15/6651f2de52dd359c7b553a77b9d00020.png"; // 修改横幅
             dom_gift.getElementsByClassName("Banner4gift-objectName")[0].title = "超级火箭";
@@ -3522,7 +3522,7 @@ function fansToSuperRocket(m) {
                     document.getElementById(idName).remove();
                 }, 4000);
             });
-            
+
         }
     }
 }
@@ -9645,8 +9645,9 @@ async function getAct() {
 }
 
 async function initPkg_Sign_ActqzsUserTask() {
-  const rids = ["6442973", "88080", "2448877", "9616398", "6194144"];
-  let activityId = await getActivityId(dateFormat("yyyyMM", new Date()));
+  const rids = ["6442973", "1457640", "2448877", "9616398", "6194144"];
+  // let activityId = await getActivityId(dateFormat("yyyyMM", new Date()));
+  let activityId = 2026;
   if (!activityId) {
     const currentDate = new Date();
     const nextMonth = currentDate.getMonth() + 1;
@@ -10467,7 +10468,7 @@ function initPkg_SyncJoy_Func() {
 // 版本号
 // 格式 yyyy.MM.dd.**
 // var curVersion = "2020.01.12.01";
-var curVersion = "2024.10.15.01"
+var curVersion = "2024.10.17.01"
 var isNeedUpdate = false
 var lastestVersion = ""
 function initPkg_Update() {
@@ -10487,7 +10488,7 @@ function Update_insertIcon() {
 	let a = document.createElement("div");
 	a.className = "ex-update";
 	a.innerHTML = '<a class="ex-panel__icon" title="版本更新"><svg t="1578767541873" style="display:block;" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="23715" width="32" height="32"><path d="M768 810.7H512c-23.6 0-42.7-19.1-42.7-42.7s19.1-42.7 42.7-42.7h256c94.1 0 170.7-76.6 170.7-170.7 0-89.6-70.1-164.3-159.5-170.1L754 383l-10.7-22.7c-42.2-89.3-133-147-231.3-147s-189.1 57.7-231.3 147L270 383l-25.1 1.6c-89.5 5.8-159.5 80.5-159.5 170.1 0 94.1 76.6 170.7 170.7 170.7 23.6 0 42.7 19.1 42.7 42.7s-19.1 42.7-42.7 42.7c-141.2 0-256-114.8-256-256 0-126.1 92.5-232.5 214.7-252.4C274.8 195.7 388.9 128 512 128s237.2 67.7 297.3 174.2C931.5 322.1 1024 428.6 1024 554.7c0 141.1-114.8 256-256 256z" fill="#3688FF" p-id="23716"></path><path d="M554.7 938.7c-10.9 0-21.8-4.2-30.2-12.5l-128-128c-16.7-16.7-16.7-43.7 0-60.3l128-128c16.6-16.7 43.7-16.7 60.3 0 16.7 16.7 16.7 43.7 0 60.3L487 768l97.8 97.8c16.7 16.7 16.7 43.7 0 60.3-8.3 8.4-19.2 12.6-30.1 12.6z" fill="#5F6379" p-id="23717"></path></svg><i id="ex-update__tip" class="ex-panel__tip"></i></a>';
-	
+
 	let b = document.getElementsByClassName("ex-panel__wrap")[0];
 	b.insertBefore(a, b.childNodes[0]);
 }
@@ -10497,7 +10498,7 @@ function initPkg_Update_Func() {
 }
 function checkUpdate_Src() {
 	return new Promise((resolve, reject) => {
-		fetch('http://src.douyuex.com/src/douyuex_version.txt',{
+		fetch('http://src.douyuex.com/src/douyuex_version.txt', {
 			method: 'GET',
 			mode: 'cors',
 			cache: 'no-store',
@@ -10505,7 +10506,7 @@ function checkUpdate_Src() {
 		}).then(res => {
 			return res.text();
 		}).then(txt => {
-			if(txt != undefined){
+			if (txt != undefined) {
 				if (txt != curVersion) {
 					resolve([true, txt]);
 				}
@@ -10520,7 +10521,7 @@ function checkUpdate_Src() {
 
 function checkUpdate_GreasyFork() {
 	return new Promise((resolve, reject) => {
-		fetch('https://greasyfork.org/zh-CN/scripts/394497',{
+		fetch('https://greasyfork.org/zh-CN/scripts/394497', {
 			method: 'GET',
 			mode: 'cors',
 			cache: 'no-store',
@@ -10530,7 +10531,7 @@ function checkUpdate_GreasyFork() {
 		}).then(txt => {
 			txt = (new DOMParser()).parseFromString(txt, 'text/html');
 			let v = txt.getElementsByClassName("script-show-version")[1];
-			if(v != undefined){
+			if (v != undefined) {
 				if (v.innerText != curVersion) {
 					resolve([true, v.innerText]);
 				}
@@ -10590,7 +10591,7 @@ function Update_showTip(a) {
 			d.style.display = "none";
 		}
 	}
-	
+
 }
 function Update_showMessage() {
 	let msg = `【版本更新】最新版本：${lastestVersion}，点击<a href="https://html.douyuex.com/install/web.html" target="_blank">官方源</a>或者<a href="https://greasyfork.org/zh-CN/scripts/394497" target="_blank">GreasyFork源</a>更新，<a href="https://html.douyuex.com/update/" target="_blank">点击查看更新内容</a>`
@@ -13606,6 +13607,6 @@ function initRouter_FansBadgeList() {
 }
 
 
-(async function() {
+(async function () {
 	initRouter(window.location.href);
 })();
